@@ -1,13 +1,6 @@
-gunicorn==20.1.0
-beautifulsoup4==4.9.3
-cachetools==4.2.0
-Cython==0.29.21
 fastapi==0.63.0
 h11==0.11.0
 h5py==2.10.0
-spacy==3.0.5
-spacy-legacy==3.0.2
-textblob==0.15.3
 html5lib==1.1
 htmldate==0.7.2
 httptools==0.1.1
@@ -16,7 +9,6 @@ Keras-Preprocessing==1.1.2
 networkx==2.5
 numpy==1.18.5
 oauthlib==3.1.
-pandas==1.2.3
 pydantic==1.7.3
 python-dateutil==2.8.1
 python-dotenv==0.15.0
@@ -36,14 +28,3 @@ uvicorn==0.13.4
 uvloop==0.14.0
 watchgod==0.6
 gast==0.3.3
-readability-lxml==0.8.1
-htmldate==0.7.2
-jusText==2.2.0
-trafilatura==0.6.1
-gast==0.3.3
-google-ads==10.0.0
-google-api-core==1.24.1
-google-auth==1.24.0
-google-auth-oauthlib==0.4.2
-google-pasta==0.2.0
-googleapis-common-protos==1.52.0
