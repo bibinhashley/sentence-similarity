@@ -4,7 +4,6 @@ Here I used fast API which is a simple and faster API platform.
 
 from fastapi import FastAPI, Depends
 from app.config import APP_NAME, APP_VERSION, IS_DEBUG
-from app import security
 import json, os
 from pydantic import BaseModel
 import numpy as np
@@ -37,7 +36,6 @@ app = get_app()
 @app.post("/sentence_similarity")
 def sentence_similarity(
     incoming_data: Input_for_sentence_similarity,
-    authenticated: bool = Depends(security.validate_request),
     status_code=200,
 ):
     data = incoming_data.dict()
