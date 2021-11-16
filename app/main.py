@@ -3,7 +3,7 @@ Here I used fast API which is a simple and faster API platform.
 """
 
 from fastapi import FastAPI, Depends
-from app.config import APP_NAME, APP_VERSION, IS_DEBUG
+from app.config import APP_NAME, APP_VERSION
 import json, os
 from pydantic import BaseModel
 import numpy as np
@@ -22,7 +22,7 @@ def get_app() -> FastAPI:
     fast_app = FastAPI(
         title=APP_NAME,
         version=APP_VERSION,
-        debug=IS_DEBUG,
+        debug=False,
         redoc_url=None,
         docs_url=None,
     )
