@@ -4,7 +4,6 @@ h5py==2.10.0
 html5lib==1.1
 htmldate==0.7.2
 httptools==0.1.1
-jellyfish==0.8.2
 Keras-Preprocessing==1.1.2
 networkx==2.5
 numpy==1.18.5
